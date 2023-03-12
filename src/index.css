@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		background-color: #6f00ff;
+	}
+}
+
+@layer components {
+	.form-container {
+		@apply min-w-[300px] lg:min-w-[450px] lg:w-fit bg-deep-blue p-5 lg:p-8 rounded-lg shadow-lg flex flex-col gap-8;
+	}
+
+	.field {
+		@apply lg:text-lg mb-6 rounded-sm px-2 py-1 focus:outline-none border-2 focus:border-fuchsia-500 text-slate-700;
+	}
+
+	.btn {
+		@apply px-3 py-2 rounded-md bg-sky-500 text-lg;
+	}
+}
