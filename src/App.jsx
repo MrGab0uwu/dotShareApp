@@ -1,12 +1,11 @@
-import Form from './components/Form/FormContainer';
-import Signup from './pages/Signup';
+import Login from "./pages/login";
 
 function App() {
-	return (
-		<div>
-			<Signup />
-		</div>
-	);
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
 
 export default App;
